@@ -33,7 +33,7 @@
     text-decoration: none;
     transition: 0.3s;
 }
-.header .inner-wrap ul li a:active {
+.header .inner-wrap ul li a.active {
     color: var(--color-button-two);
 }
 .header .inner-wrap .bars {
