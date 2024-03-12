@@ -59,11 +59,11 @@
     background-image: url(../image/banner-bg.png);
     height: 100vh;
     object-fit: cover;
-    background-position: center center;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
 }
 .section-one .inner-wrap{
     padding: 250px;
@@ -72,19 +72,24 @@
     align-items: center;
 }
 
-.section-one .inner-list {
-    margin-top: 70px;
+/* End Section One */
+
+/* List one */
+.inner-list-one {
+    margin-top: -300px;
+    margin-bottom: 80px;
 }
-.section-one .inner-list .inner-box {
+.inner-list-one .inner-box {
     text-align: center;
     background-color: #fff;
     border-radius: 12px;
     padding: 25px;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
     margin-bottom: 30px;
+    max-height: 100%;
 }
 
-.section-one .inner-list .inner-icon {
+.inner-list-one .inner-icon {
     background: var(--color-button-one);
     width: 90px;
     height: 90px;
@@ -95,26 +100,26 @@
     justify-content: center;
     margin-bottom: 30px;
 }
-.section-one .inner-list .inner-icon:hover {
+.inner-list-one .inner-icon:hover {
     background: var(--color-button-two);
     transition: 0.4s;
 }
 
-.section-one .inner-list .inner-title {
+.inner-list-one .inner-title {
     font-size: 20px;
     font-weight: 500;
     text-wrap: nowrap;
 }
-.section-one .inner-list .inner-desc {
+.inner-list-one .inner-desc {
     font-size: 14px;
     font-weight: 350;
 }
 @media (max-width: 991.98px) {
-    .section-one{
-        margin-bottom: 800px;
+    .inner-list-one {
+        margin-top: 0;
     }
 }
-/* End Section One */
+/* End list one */
 
 
 /* Section Two & Three */
